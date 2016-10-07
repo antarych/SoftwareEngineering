@@ -1,0 +1,9 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\MovieRecomendationSystem\MovieRecomendation\bin\Debug\MovieRecomendation.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\MovieRecomendationSystem\MovieRecomendation\bin\Debug\MovieRecomendation.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\MovieRecomendationSystem\MovieRecomendation\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\MovieRecomendationSystem\MovieRecomendation\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\MovieRecomendationSystem\MovieRecomendation\obj\Debug\MovieRecomendation.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\MovieRecomendationSystem\MovieRecomendation\obj\Debug\MovieRecomendation.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\MovieRecomendationSystem\MovieRecomendation\obj\Debug\MovieRecomendation.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\MovieRecomendationSystem\MovieRecomendation\obj\Debug\MovieRecomendation.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\MovieRecomendationSystem\MovieRecomendation\obj\Debug\MovieRecomendation.pdb

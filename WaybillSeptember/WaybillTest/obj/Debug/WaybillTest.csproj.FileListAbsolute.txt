@@ -1,0 +1,8 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\WaybillSeptember\WaybillTest\obj\Debug\WaybillTest.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\WaybillSeptember\WaybillTest\bin\Debug\WaybillTest.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\WaybillSeptember\WaybillTest\bin\Debug\WaybillTest.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\WaybillSeptember\WaybillTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\WaybillSeptember\WaybillTest\bin\Debug\Waybill.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\WaybillSeptember\WaybillTest\bin\Debug\Waybill.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\WaybillSeptember\WaybillTest\obj\Debug\WaybillTest.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\WaybillSeptember\WaybillTest\obj\Debug\WaybillTest.pdb

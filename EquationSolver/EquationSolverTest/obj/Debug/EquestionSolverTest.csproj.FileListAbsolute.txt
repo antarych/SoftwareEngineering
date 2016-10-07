@@ -1,0 +1,8 @@
+c:\users\user\documents\visual studio 2015\Projects\SEn\EquestionSolverTest\bin\Debug\EquestionSolverTest.dll
+c:\users\user\documents\visual studio 2015\Projects\SEn\EquestionSolverTest\bin\Debug\EquestionSolverTest.pdb
+c:\users\user\documents\visual studio 2015\Projects\SEn\EquestionSolverTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\user\documents\visual studio 2015\Projects\SEn\EquestionSolverTest\obj\Debug\EquestionSolverTest.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\SEn\EquestionSolverTest\obj\Debug\EquestionSolverTest.dll
+c:\users\user\documents\visual studio 2015\Projects\SEn\EquestionSolverTest\obj\Debug\EquestionSolverTest.pdb
+c:\users\user\documents\visual studio 2015\Projects\SEn\EquestionSolverTest\bin\Debug\EquestionSolver.dll
+c:\users\user\documents\visual studio 2015\Projects\SEn\EquestionSolverTest\bin\Debug\EquestionSolver.pdb
