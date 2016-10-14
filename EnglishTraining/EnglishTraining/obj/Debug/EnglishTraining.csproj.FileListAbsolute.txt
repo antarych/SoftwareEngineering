@@ -1,0 +1,9 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTraining\bin\Debug\EnglishTraining.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTraining\bin\Debug\EnglishTraining.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTraining\obj\Debug\EnglishTraining.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTraining\obj\Debug\EnglishTraining.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTraining\obj\Debug\EnglishTraining.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTraining\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTraining\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTraining\obj\Debug\EnglishTraining.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTraining\obj\Debug\EnglishTraining.csproj.GenerateResource.Cache

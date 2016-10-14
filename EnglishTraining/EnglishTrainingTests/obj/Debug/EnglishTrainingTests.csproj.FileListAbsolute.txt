@@ -1,0 +1,10 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\bin\Debug\EnglishTrainingTests.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\bin\Debug\EnglishTrainingTests.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\bin\Debug\EnglishTraining.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\bin\Debug\EnglishTraining.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\obj\Debug\EnglishTrainingTests.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\obj\Debug\EnglishTrainingTests.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\obj\Debug\EnglishTrainingTests.pdb
