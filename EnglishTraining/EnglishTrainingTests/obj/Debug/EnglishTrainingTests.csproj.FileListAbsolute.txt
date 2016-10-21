@@ -8,3 +8,5 @@ C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishT
 C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\obj\Debug\EnglishTrainingTests.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\obj\Debug\EnglishTrainingTests.dll
 C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\obj\Debug\EnglishTrainingTests.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\obj\Debug\EnglishTrainingTests.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\С#\EnglishTraining\EnglishTrainingTests\obj\Debug\EnglishTrainingTests.csproj.GenerateResource.Cache

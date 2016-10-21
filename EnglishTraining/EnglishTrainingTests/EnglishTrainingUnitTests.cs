@@ -9,19 +9,25 @@ namespace EnglishTrainingTests
     [TestClass]
     public class EnglishTrainingUnitTests
     {
+        //[TestMethod]
+        //public void CreateNewId()
+        //{
+        //    //var createIdStub = new RegistrationServiceStub();
+
+        //    //var actualId = createIdStub.CreateNewId();
+
+        //    //Assert.IsTrue(createIdStub.calledCreateId);
+
+        //    var createIdStub = new RegistrationServiceStub();
+        //    var expectedId = 1;
+        //    var actualId = createIdStub.CreateNewId();
+
+        //    Assert.AreEqual(expectedId, actualId);
+
+        //}
+
         [TestMethod]
-        public void CreateNewId()
-        {
-            var createIdStub = new RegistrationServiceStub();
-
-            var actualId = createIdStub.CreateNewId();
-
-            Assert.IsTrue(createIdStub.calledCreateId);
-
-        }
-
-        [TestMethod]
-        public void AddUser_ReturnsFirstId()
+        public void AddUser_ReturnsId()
         {
             var nickname = "nickname";
             var addUserStub = new RegistrationServiceStub();
@@ -37,12 +43,12 @@ namespace EnglishTrainingTests
             LearnedWord[] learnedWords = new LearnedWord[0];
             LearnedWord word = new LearnedWord("word", "translation");
             var profile = new UserProfile(1, "nickname", learnedWords, null);
-            LearnedWord[] expectedLearnedWords = new LearnedWord[1];
-            expectedLearnedWords[0]  = new LearnedWord("word", "translation");
+            var expectedLearnedWord  = new LearnedWord("word", "translation");            
 
             profile.AddLearnedWord(word);
+            LearnedWord actualLearnedWord = new LearnedWord(profile.LearnedWords[0].Word, profile.LearnedWords[0].Translation);
 
-            CollectionAssert.AreEqual(expectedLearnedWords, profile.LearnedWords);
+            Assert.IsTrue(expectedLearnedWord == actualLearnedWord);
         }
 
         [TestMethod]
@@ -62,9 +68,9 @@ namespace EnglishTrainingTests
         //[TestMethod]
         //public void GetAllWordsTest()
         //{
-        //    string pathToFileWithWords = "EnglishTraining.Properties.Resources.words";
-        //    UserProfileRepository userProfileRepository = new UserProfileRepository("EnglishTraining.Properties.Resources.profiles");
-        //    var getAllWords = new VocabularyService(pathToFileWithWords, userProfileRepository);
+        //    string pathToFileWithWords = "EnglishTrainingTests.Properties.Resources.words";
+        //    UserProfileRepository userProfileRepository = new UserProfileRepository("EnglishTrainingTests.Properties.Resources.profiles");
+        //    var getAllWords = new VocabularyService(EnglishTrainingTests.Properties.Resources, userProfileRepository);
         //    string[] expectedMassive = new string[] { "word1 translation1", "word2 translation2", "word3 translation3", "word4 translation4", "word5 translation5" };
 
         //    var actualMassive = File.ReadAllLines(pathToFileWithWords);
@@ -101,13 +107,46 @@ namespace EnglishTrainingTests
 
             Assert.IsFalse(actualAnswer);
         }
+
+        [TestMethod]
+        public void SaveProfileTest()
+        {
+            var userProfileRepositoryStub = new UserProfileRepositoryStub();
+            
+            UserProfile profile = new UserProfile(1, "name", new LearnedWord[0], new WordInProgress[0]);
+
+            userProfileRepositoryStub.SaveProfile(profile);
+
+            Assert.IsTrue(userProfileRepositoryStub.calledSaving);
+        }
+
+        [TestMethod]
+        public void GetAllProfilesTest()
+        {
+            var userProfileRepositoryStub = new UserProfileRepositoryStub();
+
+            userProfileRepositoryStub.GetAllProfiles();
+
+            Assert.IsTrue(userProfileRepositoryStub.calledGetAll);
+        }
+
+        [TestMethod]
+        public void GetOneProfileTest()
+        {
+            var userProfileRepositoryStub = new UserProfileRepositoryStub();
+            var userId = 1234;
+
+            userProfileRepositoryStub.GetOneProfile(userId);
+
+            Assert.IsTrue(userProfileRepositoryStub.calledGetOneProfile);
+        }
     }
 }
 
 public class RegistrationServiceStub:IRegistrationService
 {
     public bool calledAdd = false;
-    UserProfileRepository userProfileRepository = new UserProfileRepository("EnglishTraining.Properties.Resources.profiles");
+    UserProfileRepository userProfileRepository = new UserProfileRepository("path");
     public int AddUser(string nickname)
     {
         calledAdd = true;
@@ -117,9 +156,36 @@ public class RegistrationServiceStub:IRegistrationService
     public bool calledCreateId = false;
     public int CreateNewId()
     {
-        calledCreateId = true;
-        int id = 1;
-        return id;
+        //UserProfile[] allProfiles = new UserProfile[0];
+        //int id = CreateNewId();
+        //return id;
+        throw new NotImplementedException();
+    }
+}
+
+public class UserProfileRepositoryStub : IRepository<UserProfile>
+{
+    public bool calledGetAll = false;
+    public UserProfile[] GetAllProfiles()
+    {
+        calledGetAll = true;
+        return new UserProfile[] { new UserProfile(1, "name", new LearnedWord[0], new WordInProgress[0]) };
+    }
+
+
+    public bool calledSaving = false;
+
+    public void SaveProfile(UserProfile profile)
+    {
+        UserProfileRepository saveProfile = new UserProfileRepository("path");
+        calledSaving = true;
+    }
+
+    public bool calledGetOneProfile = false;
+    public UserProfile GetOneProfile(int UserId)
+    {
+        calledGetOneProfile = true;
+        return new UserProfile(1, "name", new LearnedWord[0], new WordInProgress[0]);
     }
 }
 

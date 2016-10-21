@@ -11,5 +11,7 @@ namespace EnglishTraining
         T[] GetAllProfiles();
 
         void SaveProfile(T entity);
+
+        T GetOneProfile(int userId);
     }
 }
