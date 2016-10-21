@@ -9,22 +9,22 @@ namespace EnglishTrainingTests
     [TestClass]
     public class EnglishTrainingUnitTests
     {
-        //[TestMethod]
-        //public void CreateNewId()
-        //{
+        [TestMethod]
+        public void CreateNewId()
+        {
         //    //var createIdStub = new RegistrationServiceStub();
 
         //    //var actualId = createIdStub.CreateNewId();
 
         //    //Assert.IsTrue(createIdStub.calledCreateId);
 
-        //    var createIdStub = new RegistrationServiceStub();
-        //    var expectedId = 1;
-        //    var actualId = createIdStub.CreateNewId();
+            var createIdStub = new RegistrationServiceStub();
+            var expectedId = 1;
+            var actualId = createIdStub.CreateNewId();
 
-        //    Assert.AreEqual(expectedId, actualId);
+            Assert.AreEqual(expectedId, actualId);
 
-        //}
+        }
 
         [TestMethod]
         public void AddUser_ReturnsId()
@@ -156,10 +156,9 @@ public class RegistrationServiceStub:IRegistrationService
     public bool calledCreateId = false;
     public int CreateNewId()
     {
-        //UserProfile[] allProfiles = new UserProfile[0];
-        //int id = CreateNewId();
-        //return id;
-        throw new NotImplementedException();
+        calledCreateId = true;
+        UserProfile[] allProfiles = new UserProfile[0];
+        return allProfiles.Length + 1;
     }
 }
 
