@@ -17,17 +17,31 @@ namespace EnglishTraining
 
         public string[] GetAllWords()
         {
-            string[] allWordsWithTranslation = null;
+            string[] allWords = null;
             if (File.Exists(_pathToFileWithWords) == true)
             {
-                allWordsWithTranslation = File.ReadAllLines(_pathToFileWithWords);
+                allWords = File.ReadAllLines(_pathToFileWithWords);
             }
-            return allWordsWithTranslation;
+            return allWords; ;
+        }
+
+        public string[] GetWordsForExercise(int userId)
+        {
+            string[] wordsForExercise = new string[numberOfWordsInExercise];
+            if (File.Exists(_pathToFileWithWords) == true)
+            {
+                string[] allWordsWithTranslation = File.ReadAllLines(_pathToFileWithWords);
+                for (int i = 0; i < wordsForExercise.Length; i++)
+                {
+                    
+                }
+            }
+            return wordsForExercise;
         }
         public string GetEnglishWordWithTranslation(int userId)
         {
             UserProfile userProfile = _userProfileRepository.GetOneProfile(userId);
-            string[] allWordsWithTranslation = GetAllWords();
+            string[] allWordsWithTranslation = GetWordsForExercise(userId);
             bool flag = false;
             int? randomIndex = null;
             while (flag == false)
@@ -113,5 +127,7 @@ namespace EnglishTraining
         private readonly UserProfileRepository _userProfileRepository;
 
         private readonly char separator = ' ';
+
+        private readonly int numberOfWordsInExercise = 15;
     }
 }

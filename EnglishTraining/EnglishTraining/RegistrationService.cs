@@ -22,8 +22,7 @@ namespace EnglishTraining
 
         public int CreateNewId()
         {
-            var userProfiles = _userProfileRepository.GetAllProfiles();
-            return userProfiles.Length + 1;
+            return _userProfileRepository.GetAllProfiles().Length + 1;
         }
 
         private readonly IRepository<UserProfile> _userProfileRepository;

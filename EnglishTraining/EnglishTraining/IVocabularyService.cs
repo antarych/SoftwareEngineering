@@ -8,7 +8,7 @@ namespace EnglishTraining
 {
     public interface IVocabularyService
     {
-        string[] GetAllWords();
+        string[] GetWordsForExercise();
 
         string GetEnglishWordWithTranslation(int userId);
 

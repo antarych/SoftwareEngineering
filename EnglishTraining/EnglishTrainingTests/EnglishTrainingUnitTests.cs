@@ -12,11 +12,11 @@ namespace EnglishTrainingTests
         [TestMethod]
         public void CreateNewId()
         {
-        //    //var createIdStub = new RegistrationServiceStub();
+            //var createIdStub = new RegistrationServiceStub();
 
-        //    //var actualId = createIdStub.CreateNewId();
+            //var actualId = createIdStub.CreateNewId();
 
-        //    //Assert.IsTrue(createIdStub.calledCreateId);
+            //Assert.IsTrue(createIdStub.calledCreateId);
 
             var createIdStub = new RegistrationServiceStub();
             var expectedId = 1;
